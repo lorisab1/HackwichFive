@@ -95,6 +95,7 @@
                     <tabBarItem key="tabBarItem" title="Fave Foods" image="fork.knife" catalog="system" id="xWm-be-M8a"/>
                     <connections>
                         <outlet property="bottomLabel" destination="xd3-Xj-w1G" id="pvu-rz-piL"/>
+                        <outlet property="buttonLabel" destination="BGD-mf-8zD" id="zae-U6-5A7"/>
                         <outlet property="topLabel" destination="DG3-ZJ-8iV" id="7HK-Zf-Uuc"/>
                     </connections>
                 </viewController>

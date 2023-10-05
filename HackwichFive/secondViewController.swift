@@ -28,12 +28,19 @@ class secondViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: Any)
     {
+        if currentIndex < favoriteDrinksArray.count
+        {
+            bottomLabel.text = favoriteDrinksArray[currentIndex]
+            currentIndex = currentIndex + 1
+        }
+        else
+        {
+            print("No more elements to display.")
+        }
         
-        bottomLabel.text = favoriteDrinksArray[2]
-        
+   
     }
  
     
     
-
 }
