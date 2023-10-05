@@ -16,6 +16,9 @@ class secondViewController: UIViewController {
     
    
     @IBOutlet weak var bottomLabel: UILabel!
+   
+    
+    @IBOutlet weak var buttonLabel: UIButton!
     
     
     override func viewDidLoad() {
@@ -32,10 +35,15 @@ class secondViewController: UIViewController {
         {
             bottomLabel.text = favoriteDrinksArray[currentIndex]
             currentIndex = currentIndex + 1
+            
+            buttonLabel.setTitle("Next", for: UIControl.State.normal)
+            currentIndex += 1
+            
         }
         else
         {
             print("No more elements to display.")
+            
         }
         
    

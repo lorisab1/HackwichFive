@@ -48,6 +48,7 @@
                     <tabBarItem key="tabBarItem" title="Fave Drinks" image="cup.and.saucer.fill" catalog="system" id="t9L-WZ-mIY"/>
                     <connections>
                         <outlet property="bottomLabel" destination="aeg-YF-IwH" id="SW3-Ki-mcb"/>
+                        <outlet property="buttonLabel" destination="gMd-NA-ikT" id="KWz-Hs-wX6"/>
                         <outlet property="topLabel" destination="mP3-2J-mQa" id="WPn-lK-WC2"/>
                     </connections>
                 </viewController>

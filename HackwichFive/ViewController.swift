@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var bottomLabel: UILabel!
     
+    
     @IBOutlet weak var buttonLabel: UIButton!
     
     
@@ -46,7 +47,7 @@ class ViewController: UIViewController {
             
             print("button has been disabled")
             
-            buttonLabel.isEnabled=false
+            (buttonLabel!).isEnabled=false
             
         }
    
